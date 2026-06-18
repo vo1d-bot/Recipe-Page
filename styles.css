@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap');
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --stone-100: hsl(30, 54%, 90%);
+    --stone-150: hsl(30, 18%, 87%);
+    --stone-600: hsl(30, 10%, 34%);
+    --stone-900: hsl(24, 5%, 18%);
+    --brown-800: hsl(14, 45%, 36%);
+    --rose-800: hsl(332, 51%, 32%);
+    --rose-50: hsl(330, 100%, 98%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* html {
+    font-size: var(--default-font);
+    font-family: "Inter", sans-serif;
+    color: var(--white);
+} */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--white);
+    font-size: 16px;
+}
+
+.recipe {
+    max-width: 20rem;
+    width: 100%;
+    border: 1px solid black;
+}
+
+.recipe__photo {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+header .recipe__name,
+header .recipe__description {
+    padding: 0.25rem 1rem;
+}
+
+.recipe__name {
+    font-size: 1.85rem;
+    font-family: "Young Serif";
+    font-weight: 400;
+    color: var(--stone-900);
+}
+
+.recipe__description {
+    font-size: 0.91rem;
+    font-family: "Outfit";
+    color: var(--stone-600);
+}
+
+.preparation__time {
+    background-color: var(--rose-50);
+    margin: 1rem;
+    border-radius: 0.5rem;
+    list-style-position: inside;
+    
+    font-family: "Outfit";
+}
+
+.preparation__time h2 {
+    color: var(--rose-800);
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem;
+}
+
+.preparation__time ul {
+    padding: 0 1rem 1rem;   
+}
+
+.preparation__time li {
+    padding: 0.25rem 1rem;
+    color: var(--stone-600);
+    font-family: "Outfit";
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+.recipe__ingredients,
+.recipe__instructions,
+.recipe__nutrition {
+    padding: 0rem 1rem;
+}
+
+.recipe__ingredients h2,
+.recipe__instructions h2,
+.recipe__nutrition h2 {
+    font-family: "Young Serif";
+    font-weight: 400;
+    color: var(--brown-800);
+}
+
+.recipe__ingredients ul,
+.recipe__instructions ol {
+    padding: 1rem;
+    font-family: "Outfit";
+    font-size: 0.9rem;
+    color: var(--stone-600);
+}
+
+.recipe__ingredients li,
+.recipe__instructions li {
+    padding: 0.25rem 0;
+}
+
+hr {
+    margin: 1rem;
+}
+
+.recipe__nutrition p {
+    font-family: "Outfit";
+    font-size: 0.9rem;
+    color: var(--stone-600);
+}
+
+.nutrition_table {
+    font-family: "Outfit";
+    font-size: 0.9rem;
+}
+
+.nutrition_table td {
+    font-weight: 600;
+    color: var(--brown-800);
+}
+
+.nutrition_table th {
+    font-weight: 400;
+    color: var(--stone-600);
+}
