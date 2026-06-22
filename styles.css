@@ -220,9 +220,3 @@ hr {
 .value {
     color: var(--brown-800);
 }
-
-
-.attribution {
-    margin: 2rem;
-    font-size: clamp(0.75rem, 4vh, 1rem);
-}
