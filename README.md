@@ -1,4 +1,4 @@
-# Blog Preview Card
+# Recipe page
 This is a solution to the [Recipe page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm).
 
 ## Table of Contents
@@ -24,8 +24,8 @@ A clean and elegant recipe page built with HTML and CSS. The design features a d
 
 ## Links
 
-- Live Site URL: [Vercel](https://)
-- Solution URL: [Github](https://)
+- [Live Site](https://vo1d-bot.github.io/Recipe-Page/)
+- [Github](https://github.com/vo1d-bot/Recipe-Page.git)
 
 ## Built With
 - Semantic HTML5
